@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    if my_list == "":
+    if len(my_list) == 0:
         return(None)
-    my_list.sort()
-    return(my_list[-1])
+    lagerst_num = my_list[0]
+    for number in range(len(my_list)):
+        if number > lagerst_num:
+            lagerst_nun = my_list[i]
+    return(lagerst_num)

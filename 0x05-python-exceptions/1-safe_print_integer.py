@@ -9,5 +9,5 @@ Otherwise - True"""
     try:
         print("{:d}".format(value))
         return True
-    except (TypeError, ValueErrror):
+    except (TypeError, ValueError):
         return False

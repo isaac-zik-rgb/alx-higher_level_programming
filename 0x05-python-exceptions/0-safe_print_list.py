@@ -14,5 +14,5 @@ The number of elements to be printed."""
             num += 1
         except indexError:
             break
-        print("")
-        return(num)
+    print("")
+    return(num)

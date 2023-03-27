@@ -15,4 +15,4 @@ The number of elements to be printed."""
         except indexError:
             break
     print("")
-    return(num)
+    return (num)

@@ -9,4 +9,4 @@ class Square:
         """initiate a new Square.
 Args:
 size (init): size of the new square"""
-        self._size = size
+        self.__size = size

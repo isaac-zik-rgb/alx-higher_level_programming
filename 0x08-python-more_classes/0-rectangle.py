@@ -2,3 +2,5 @@
 class Rectangle:
     """Define am empty class"""
     pass
+def __int__(self):
+    

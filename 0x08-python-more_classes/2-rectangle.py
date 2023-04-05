@@ -5,10 +5,15 @@
 class Rectangle:
     """Representing a class Rectangle"""
     def __init__(self, width=0, height=0):
-        """initializing a class instance attribute"""
+        """initializing a new rectangle
+Args:
+width (int): the width of the new rectangle.
+height (int): the height of the new rectangle
+"""
         self.width = width
         self.height = height
 
+        
     @property
     def width(self):
         """getter for private instance attributr width"""

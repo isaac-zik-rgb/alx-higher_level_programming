@@ -1,2 +1,5 @@
 #!/usr/bin/bash
-git add . $a
+git add .
+git commit -m "@$"
+git push
+

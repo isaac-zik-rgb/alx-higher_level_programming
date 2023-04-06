@@ -68,7 +68,7 @@ height (int): the height of a rectangle.
         """Return the string representation of the Rectangle."""
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
-        return (rect)
+        return (eval(rect))
 
     def __del__(self):
         """Print a message for every deletion of a Rectangle."""

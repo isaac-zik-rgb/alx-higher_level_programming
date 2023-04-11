@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
-"""Define a class BaseGeometry"""
-
+"""Define a base geometry class BaseGeometry"""
 
 def BaseGeometry:
-    """an empty class"""
+    """Represented base geometry"""
 
     def area(self):
         """not implemented"""

@@ -10,7 +10,7 @@ class MyList(list):
         """initializing the object"""
         super().__init__()
 
+
     def print_sorted(self):
-        """print sorted list"""
+        """prints the sorted list"""
         print(sorted(self))
-        

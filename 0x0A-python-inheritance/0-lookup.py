@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-"""a function to return the list of attributes and instances"""
+"""Define an object attrobutes look up"""
 
 def lookup(obj):
+    """Return the lists of all atributes and instances"""
     return (dir(obj))

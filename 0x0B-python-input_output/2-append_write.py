@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 
 """write a function that append a texts at the end of a file using
 UTF-8 encoding format"""

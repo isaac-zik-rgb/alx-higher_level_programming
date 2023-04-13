@@ -4,7 +4,7 @@
 
 def read_file(filename=""):
     """Args:
-read_file - read texts from a file
+read_file:  read texts from a file
 filename (str): the file to read it from
 Return:
 Nothing"""

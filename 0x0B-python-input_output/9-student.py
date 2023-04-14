@@ -18,5 +18,5 @@ the dictionary representation of the Student"""
         self.age = age
 
     def to_json(self, attr=None):
-        """A public method tgat retrives the dictionary representation of the student"""
+        """that retruns the dictionary representation"""
         return self.__dict__

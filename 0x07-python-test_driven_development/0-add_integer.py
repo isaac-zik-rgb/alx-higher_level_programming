@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-#0-add_integer.py
-
+"""0-add_integer.py"""
 """Define an integer addition function"""
+
+
 def add_integer(a, b=98):
     """float integers are first typecasted into ints before
 addition is performed.

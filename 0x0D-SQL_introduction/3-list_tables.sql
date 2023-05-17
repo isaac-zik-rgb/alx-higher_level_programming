@@ -1,2 +1,2 @@
 -- list all database tables of mysql server
-SELECT *;
+SHOW TABLES FROM ?;

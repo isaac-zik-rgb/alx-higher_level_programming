@@ -1,6 +1,7 @@
--- a script that create new table in the current database wirh
--- description
-CREATE TABLE IF NOT EXISTS first_table (
-id INT,
-name VARCHAR(256),
+-- a script that create new table in the current database with
+-- id and name
+CREATE TABLE IF NOT EXISTS `first_table` (
+`id` INT,
+`name` VARCHAR(256),
 );
+

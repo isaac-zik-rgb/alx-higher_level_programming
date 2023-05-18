@@ -1,4 +1,4 @@
--- Dispjay the average temperature of all city in hbtn_0c_0 database in mysql server
+-- -- Displays the average temperature (in Fahrenheit) by city ordered by descending temperature.
 SELECT `city`, AVG(`value`) AS avg_temp;
 FROM `Temperatures`
 GROUP BY `city`

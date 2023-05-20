@@ -1,8 +1,7 @@
--- create the database htbn_0d_usa and a table states in the databse hbtn_0d_usa on MYSQL server
--- description: id INT UNIQUE, AUTO INCREMENT NOT NULL PRIARY KEY name VARCHAR(256)
--- create the database hbtn_0d_usa
+-- Create a database hbtn_0d_usa and table states in htbn_0d_usa database
+-- create database
 CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
--- use the database
+-- use database.
 USE hbtn_0d_usa;
--- create table
-CREATE TABLE states(id INT UNIQUE NOT NULL AUTO INCREMENT, name VARCHAR(256) NOT NULL, PRIMARY KEY(id));
+-- Create table
+CREATE TABLE IF NOT EXISTS `states`(`id` INT UNIQUE NOT NULL AUTO INCREMENT, `name` VARCHAR(256) NOT NULL, PRIMARY KEY(id));

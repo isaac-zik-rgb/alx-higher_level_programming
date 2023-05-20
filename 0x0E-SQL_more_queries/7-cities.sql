@@ -1,7 +1,7 @@
---- create  database hbtn_0d_usa and table cites (in the database hbtn_0d_usa)
+--- create  database hbtn_0d_usa and table cites (in the database hbtn_0d_usa
 -- in mysql server.
 -- create database
-CREATE DATABASE IF NIT EXISTS hbtn_0d_usa;
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
 -- use database
 USE hbtn_0d_usa;
 -- create table

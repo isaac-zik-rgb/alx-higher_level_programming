@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let square = '';
+let square;
 if (Number(process.argv[2])) {
   for (let count = 0; count < Number(process.argv[2]); count++) {
     square = '';

@@ -1,2 +1,3 @@
 #!/usr/bin/node
-class Rectangle = undefined
+class Rectangle
+module.export = Rectangle;

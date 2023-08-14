@@ -1,5 +1,4 @@
-#!/usr/bin/node
-export 
+#!/usr/bin/node 
 const add = (a, b) => {
   return a + b;
 };

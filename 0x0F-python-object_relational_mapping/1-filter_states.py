@@ -17,5 +17,5 @@ if __name__ == "__main__":
     for row in rows:
         print(row)
         """close the connect in both database and cursor object"""
-        cur.close()
-        db.close()
+    cur.close()
+    db.close()

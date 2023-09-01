@@ -7,9 +7,9 @@ if __name__ == "__main__":
     import urllib.request
 
     url = sys.argv[1]
-    email = sys.argv[2]
-    data = urllib.parse.urlencode(email)
-    data = data.encode('ascii')
-    req = urllib.request.Request(url)
+    value = {'email': sys.argv[2]}
+    data = urllib.parse.urlencode(value).encode('ascii')
+    req = urllib.request.Request(url, data)
     with urllib.request.urlopen(req) as res:
-        print("Your email is: {}".format(data.decode('utf-8')))
+        response = res.read()
+        print(response.decode('utf-8'))

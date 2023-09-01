@@ -7,9 +7,5 @@ Args:
 @list_of_intergers: the list of numbers passed to it
 """
     list_of_integers.sort(reverse=True)
-    firstNum = list_of_integers[1]
-    for i in list_of_integers:
-        if i == firstNum:
-            return i, firstNum
-        else:
-            return list_of_integers[0]
+    firstNum = list_of_integers[0]
+    return firstNum

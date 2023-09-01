@@ -2,7 +2,7 @@
 """ Takes in a `URL`, sends a request to th `URL` and display the value
 of the X-Request"""
 
-if __name__ =="__main__":
+if __name__ == "__main__":
     import urllib.request
     import sys
 

@@ -12,4 +12,4 @@ Args:
         if i == firstNum:
             return i, firstNum
         else:
-            return firstNum
+            return list_of_integers[0]

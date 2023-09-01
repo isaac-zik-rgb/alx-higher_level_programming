@@ -1,11 +1,8 @@
 #!/usr/bin/python3
+""" find the peak in an unsorted list"""
 
 def find_peak(list_of_integers):
-    """
-find_peak - A function that find the peak of list of numbers passed to it
-Args:
-@list_of_intergers: the list of numbers passed to it
-"""
+    """ find the peak in the list"""
     if list_of_integers is None or list_of_integers == []:
         return None
     first = 0

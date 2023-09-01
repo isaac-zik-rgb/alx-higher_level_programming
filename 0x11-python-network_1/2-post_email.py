@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Script that takes in a URL and an email, sends a POST request
 to the passed URL with the email and display the response"""
+
 if __name__ == "__main__":
     import sys
     import urllib.request
@@ -11,4 +12,4 @@ if __name__ == "__main__":
     data = data.encode('ascii')
     req = urllib.request.Request(url)
     with urllib.request.urlopen(req) as res:
-        print("Your email is: {}".format(email))
+        print("Your email is: {}".format(data.decode('utf-8')))

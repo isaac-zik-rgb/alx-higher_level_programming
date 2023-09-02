@@ -7,12 +7,11 @@ if __name__ == "__main__":
     owner = sys.argv[2]
     res = requests.get("https://api.github.com/repos/{}/{}/commits?per_page=1"
                        .format(repo, owner))
-    latest_commit_sha = res.json()[0]['sha']
-    res = requests.
-    get("https://api.github.com/repos/{}/{}/commits?per_page=10&sha={}"
-        .format(owner, repo, latest_commit_sha))
     commits = res.json()
-    for commit in commits:
-        sha = commit['sha']
-        author_name = commit['commit']['author']['name']
-        print("{}: {}".format(sha, author_name))
+    try:
+        for i in range(10):
+            print("{}: {}".format(commits[i].get("sha"),
+                                  commits[i].get("commit").
+                                  get("author").get("name")))
+    except IndexError:
+        pass

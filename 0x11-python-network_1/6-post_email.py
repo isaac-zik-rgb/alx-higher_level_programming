@@ -3,8 +3,9 @@
 to the passed URL with the email as a paramete"""
 if __name__ == "__main__":
     import sys
-    import urllib.request
-    url = sys.argv[1]
-    request = urllib.request.Request(url)
-    with urllib.request.urlopen(request) as response:
-        print(dict(response.headers).get('X-Request-Id'))
+    import requests
+    url =sys.argv[1]
+    email = sys.argv[2]
+    data = {'email': email}
+    req = requests.post(url, data=data)
+    print(req.text)

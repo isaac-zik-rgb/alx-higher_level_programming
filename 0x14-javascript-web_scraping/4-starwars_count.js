@@ -5,7 +5,7 @@ const apiUrl = process.argv[2];
 const characterId = 18;
 request(apiUrl, (error, response, body) => {
   if (error) {
-    console.error(error);
+    console.error(`${error}`);
     return;
   }
   const filmsData = JSON.parse(body).results;

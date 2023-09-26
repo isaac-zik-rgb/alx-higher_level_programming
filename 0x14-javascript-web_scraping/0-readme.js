@@ -1,4 +1,4 @@
-#!/usr/bin/nodee
+#!/usr/bin/node
 const { readFile } = require('fs');
 const filePath = process.argv[2];
 

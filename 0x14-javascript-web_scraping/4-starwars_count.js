@@ -10,6 +10,6 @@ request(apiUrl, (error, response, body) => {
   }
   const filmsData = JSON.parse(body).results;
   const wedgeAntillesMovies = filmsData.filter((film) =>
-  film.characters.includes(`https://swapi-api.alx-tools.com/api/people/${characterId}/`));
+    film.characters.includes(`https://swapi-api.alx-tools.com/api/people/${characterId}/`));
   console.log(`${wedgeAntillesMovies.length}`);
 });

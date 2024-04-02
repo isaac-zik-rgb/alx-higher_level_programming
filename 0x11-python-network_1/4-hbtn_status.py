@@ -3,7 +3,7 @@
 if __name__ == "__main__":
     import requests
 
-    res = requests.get('https://alx-intranet.hbtn.io/status')
+    res = requests.get('https://alx-intranet.hbtn.io/status', timeout=60)
     print("Body response:")
     print("\t- type: <class 'str'>")
     print("\t- content: {}".format(res.text))

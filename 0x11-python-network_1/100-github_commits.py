@@ -6,7 +6,7 @@ if __name__ == "__main__":
     repo = sys.argv[1]
     owner = sys.argv[2]
     res = requests.get("https://api.github.com/repos/{}/{}/commits?per_page=1"
-                       .format(repo, owner))
+                       .format(repo, owner), timeout=60)
     commits = res.json()
     try:
         for i in range(10):
